@@ -9,20 +9,40 @@
     border-radius: 1em;
 }
 
+.navbar-brand{
+ font-size: 35px;
+ color: white;
+}
+
+.nav navbar-nav{
+ font-size:25px;    
+}
 /* Header CSS */
 
 
 
 /* Section CSS */
-
+#section-two{
+    height:1000px;
+}
 
 
 /* About Section CSS */
-
-
+.bio{
+    font-size:40px;
+    color:black;
+}
+.AboutMe{
+    font-size:50px;
+    color:black;
+    text-align: center;
+}
 
 /* Portfolio Item CSS */
-
+.p{
+    font-size:50;
+    text-align: center;
+}
 
 
 /* Footer CSS */

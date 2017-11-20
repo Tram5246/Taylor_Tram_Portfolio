@@ -1,61 +1,71 @@
-<!-- 
-    Class 1:
-        1.1 Wireframe your project
-        1.2 Fork and clone the repo and set up your project workspace
-    Class 2:  
-        2.1 Link your files in the head of the docment Add a Nav Bar to your site - It should have three links (Portfolio, About, and Contact) 
-        2.2 Add a div for each section. Within section add a contatiner div with the appropriate number of rows and columns
-    Class 3:  
-        3.1 Add thumbnails and other custom component (button, modal, font) using bootstrap Documentation 
-        3.2 Add CSS and add your site to gh-pages 
--->
-
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Navbar!</title> 
-        
+        <title>Navbar!</title>
+         
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-            <link rel="stylesheet" href="./css/style.css">
+            <link rel="stylesheet" href="css/style.css">
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
     </head>
 
         <body data-spy="scroll" data-target=".navbar">
-
-
+        
         <nav class="navbar navbar-inverse navbar-fixed-top">
           <div class="container-fluid">
-          
-           <div class="row">
-            <div class="navbar-header">
-              <div class=col-xs-4> <a class="navbar-brand" href="#">Taylor Tram</a></div>
+            <div class="row">
+            <div class="col-xs-3 col-xs-offset-1"><div class="navbar-header">
+              <a class="navbar-brand" href="#Main-Page">Taylor Tram</a>
             </div>
+            </div>
+            <div class="col-xs-3 col-xs-offset-1"><ul class="nav navbar-nav ">
+              <li class="active"></li>
+              <li><a href="#section-one">About Me</a></li>
+              <li><a href="#section-two">Portfolio</a></li>
+              <li><a href="#section-three">Contact Info</a></li>
             
-            <ul class="nav navbar-nav ">
-            <li class="active"><a href="#section-one">About Me</a></li>
-            <li><a href="#section-two">Portfolio</a></li>
-            <li><a href="#section-three">Contact Information</a></li>
-
-
               
             </ul>
           </div>
+          </div>
+          </div>
         </nav>
         
-
-        
         <div class="container-fluid">
-          <div class="color_div" id="section-one" style="background-color: yellow"></div>
-          <div class="color_div" id="section-two" style="background-color: green"></div>
-          <div class="color_div" id="section-three" style="background-color: red"></div>
-
+          <div>
+          <div class="color_div" id="Main-Page" style="background-color: turquoise"></div>      
+          <div class="color_div" id="section-one" style="background-color: turquoise">
+              <h1 class="AboutMe">About Me</h1>
+              <p class="bio">I am currently a student at Murry Bergtraum Highschool and am 
+taking afterschool ScriptEd classes. I have been learning to code for
+about 2 years and am still a novice. I like video games, eating, and
+learning new things.</p>
+          </div>
+          <div class="color_div" id="section-two" style="background-color: turquoise">
+            <div class="container">
+            <h1 class="p">Portfolio</h1>    
+                <div class="row">
+                    <div class="col-xs-4">
+                        <h4 class="text-center">Project Name</h4>
+                        <img class="img-responsive" src="https://bit.ly/scripted-in-progress">
+                    </div>
+                     <div class="col-xs-4">
+                        <h4 class="text-center">Project Name</h4>
+                        <img class="img-responsive" src="https://bit.ly/scripted-in-progress">
+                    </div>
+                     <div class="col-xs-4">
+                        <h4 class="text-center">Project Name</h4>
+                        <img class="img-responsive" src="https://bit.ly/scripted-in-progress">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+          <div class="color_div" id="section-three" style="background-color:turquoise"></div>
+       
         </div>
     </body>
 </html>
 
-<!--I am currently a student at Murry Bergtraum Highschool and am 
-taking afterschool ScriptEd classes. I have been learning to code for
-about 2 years and am still a novice. I like video games, eating, and
-learning new things.-->
+
