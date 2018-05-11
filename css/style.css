@@ -37,14 +37,22 @@
     color:black;
     text-align: center;
 }
-
+.info{
+    font-size:40px;
+    color:black;
+}
+.contactinfo{
+text-align:center;
+}
 /* Portfolio Item CSS */
 .p{
     font-size:50;
     text-align: center;
 }
 
-
+body{
+    background-color: teal
+}
 /* Footer CSS */
 
 
